@@ -10,25 +10,25 @@ Genetic_Ancestry.xlsx - An Excel file containing ethnic group information associ
 
 MachineLearningTasks.xlsx - An Excel file detailing the number of samples (positive and negative classes) for data-abundant (source domain) and data-disadvantaged (target domain) groups associated with 908 machine learning tasks.
 
-SingleOmics_AE_Linear-Linear-MSE.zip - Contains the results of 908 machine learning tasks using Autoencoder-based feature extraction for the first setting (AE-1), where both f_1(x) and f_2(x) are linear activation functions, and the loss function L is a mean squared error (MSE).
+SingleOmics_AE_Linear-Linear-MSE.zip - Contains the results of 908 machine learning tasks using Autoencoder based feature extraction for the first setting (AE-1), where both f_1(x) and f_2(x) are linear activation functions, and the loss function L is a mean squared error (MSE).
 
-Summary_SingleOmics_AE_Linear-Linear-MSE.xlsx - An Excel file summarizing the results of 908 machine learning tasks using Autoencoder-based feature extraction for the first setting (AE-1).
+Summary_SingleOmics_AE_Linear-Linear-MSE.xlsx - An Excel file summarizing the results of 908 machine learning tasks using Autoencoder based feature extraction for the first setting (AE-1).
 
-SingleOmics_AE_ReLU-Sigmoid-BCE.zip - Contains the results of 908 machine learning tasks using Autoencoder-based feature extraction for the second setting (AE-2), where f_1(x) is a Rectified Linear Unit (ReLU) activation function, f_2(x) is a linear activation function, and the loss function L is binary cross-entropy (BCE).
+SingleOmics_AE_ReLU-Sigmoid-BCE.zip - Contains the results of 908 machine learning tasks using Autoencoder based feature extraction for the second setting (AE-2), where f_1(x) is a Rectified Linear Unit (ReLU) activation function, f_2(x) is a Sigmoid activation function, and the loss function L is binary cross-entropy (BCE).
 
-Summary_SingleOmics_AE_ReLU-Sigmoid-BCE.xlsx - An Excel file summarizing the results of 908 machine learning tasks using Autoencoder-based feature extraction for the second setting (AE-2).
+Summary_SingleOmics_AE_ReLU-Sigmoid-BCE.xlsx - An Excel file summarizing the results of 908 machine learning tasks using Autoencoder based feature extraction for the second setting (AE-2).
 
-SingleOmics_ANOVA.zip - Contains the results of 908 machine learning tasks using the ANOVA-based feature selection method.
+SingleOmics_ANOVA.zip - Contains the results of 908 machine learning tasks using the ANOVA based feature selection method.
 
-Summary_SingleOmics_ANOVA.xlsx - An Excel file summarizing the results of 908 machine learning tasks using the ANOVA-based feature selection method.
+Summary_SingleOmics_ANOVA.xlsx - An Excel file summarizing the results of 908 machine learning tasks using the ANOVA based feature selection method.
 
-SingleOmics_PCA.zip - Contains the results of 908 machine learning tasks using the PCA-based dimensionality reduction method.
+SingleOmics_PCA.zip - Contains the results of 908 machine learning tasks using the PCA based dimensionality reduction method.
 
-Summary_SingleOmics_PCA.xlsx - An Excel file summarizing the results of 908 machine learning tasks using the PCA-based dimensionality reduction method.
+Summary_SingleOmics_PCA.xlsx - An Excel file summarizing the results of 908 machine learning tasks using the PCA based dimensionality reduction method.
 
 Supplementary_Information.pdf - A document containing the abbreviations of 33 cancer types from the TCGA dataset and 7 Pan-cancers using combinations of cancer types.
 
-TCGA-CDR-SupplementalTableS1.xlsx - An Excel file providing clinical outcome endpoints and event time thresholds information associated with each sample and cancer type.
+TCGA-CDR-SupplementalTableS1.xlsx - An Excel file providing clinical outcome endpoints and event time threshold information associated with each sample and cancer type.
 
 TasksCount.xlsx - An Excel file listing the number of machine learning tasks assembled considering various omics features, target groups, and clinical outcome endpoints for different feature engineering methods: ANOVA, PCA, AE-1 (AE-L-L-MSE), and AE-2 (AE-R-S-BCE).
 
@@ -118,7 +118,7 @@ For AE-2 based feature extraction method, set the following:
 ```sh
 AE=True
 EncoderActivation = 'relu'
-DecoderActivation = 'linear'
+DecoderActivation = 'sigmoid'
 LossFunction = 'binary_crossentropy'
 PCA_FE_All=False
 ```
