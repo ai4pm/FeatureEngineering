@@ -129,12 +129,6 @@ PCA_FE_All=False
 This work has been supported by NIH R01 grant.
 
 
-## Contact
-
-For any queries, please contact:
-
-Prof. Yan Cui (ycui2@uthsc.edu)
-
 Dr. Teena Sharma (tee.shar6@gmail.com)
 
 
