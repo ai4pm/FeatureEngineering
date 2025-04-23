@@ -32,6 +32,8 @@ TCGA-CDR-SupplementalTableS1.xlsx - An Excel file providing clinical outcome end
 
 TasksCount.xlsx - An Excel file listing the number of machine learning tasks assembled considering various omics features, target groups, and clinical outcome endpoints for different feature engineering methods: ANOVA, PCA, AE-1 (AE-L-L-MSE), and AE-2 (AE-R-S-BCE).
 
+Sample_Label_Expression_Info - This folder consists of sample and label information and the expression values for 99 datasets (33 cancer types X 3 omics features, i.e., mRNA-Expression, DNA Methylation, and MicroRNA Expression) for four clinical outcome endpoints, i.e., OS, DSS, PFI, and DFI. 
+
 
 **Codes.zip**
 
