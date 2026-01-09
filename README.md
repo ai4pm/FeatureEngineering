@@ -131,7 +131,13 @@ PCA_FE_All=False
 This work has been supported by NIH R01 grant.
 
 
+## Contact
+
 Dr. Teena Sharma (tee.shar6@gmail.com)
 
+
+## Reference
+
+T. Sharma, N. K. Verma, and Y. Cui, "Multiethnic Machine Learning for Omics based Cancer Prognosis: From Feature Engineering to Disparity Detection and Mitigation," IEEE Transactions on Artificial Intelligence, pp. 1-12, Dec. 2025. DOI: 10.1109/TAI.2025.3640596 (Early Access)
 
 
